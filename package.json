@@ -1,0 +1,16 @@
+{
+  "name": "day01",
+  "version": "1.0.0",
+  "description": "git     git init         创建一个.git文件     git add *          加入git缓存     git commit -m 'decripe'         创建git节点(版本)     git log         历史节点     git reset --hard 版本号         版本回退     git reflog     git branch         查看分支     git branch dev         创建分支     git checkout dev         切换分支     git merge dev         将指定分支dev合并到主分支上     github.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
